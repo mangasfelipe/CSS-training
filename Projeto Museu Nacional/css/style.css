@@ -1,0 +1,179 @@
+body {
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+#container { /*configuração geral de todo o container */
+    width: 1080px;
+    margin: 0 auto;
+}
+a:link, a:active, a:visited {
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover { /*configuração geral de todos os links */
+    color: #227215;
+}
+/*logo*/
+
+#logo h1 {
+    float: left;
+}
+#logo a { /*configurando o link da id "logo"*/
+    width: 248px;
+    height: 21px;
+    text-indent: -9000px;
+    display: block;
+    background: url(../imagens/logo.png) no-repeat;
+}
+
+header { /*formatação para cabeçalho no geral */
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul { /*formatando para a lista no geral */
+    list-style-type: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li { /*formantando os itens especificamente da lista */
+    float: left;
+}
+
+nav ul li a:link { /*formantando os itens de link especificamente da lista */
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px ;
+    text-transform: uppercase;
+}
+nav ul li a:hover { /*formatamos aqui o link ao passar o mouse por cima*/
+    border-bottom: 1px solid #535858;
+}
+
+/*configuração do conteúdo principal ========================*/
+#conteudo { /*aqui a div conteudo e a div lateral estão no mesmo bloco, mas uma está flutuando à direita e a outra a esquerda*/
+    width: 710px;
+    float: left;
+    background: burlywood;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ccbf9c;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+#galeria a { /*esse link formata todo o link dentro da seção galeria */
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    margin: 10px 0 0 20px;
+    float: left;
+    padding: 15px;
+}
+#galeria {
+    padding: 0 27px 0 27px;
+   
+}
+
+#galeria a img {/*assim formatamos a imagem que está dentro do link A que está dentro da id galeria*/
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+/*configuração da área de visitas==================*/
+#visita {/*primeiro configuramos a section por um inteiro*/
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+h4 {/*assim configuramos todos os h4 no arquivo. independente de onde estejam */
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+h3 {
+    color: #227115;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+/*seção dos formulários ====================*/
+input { /*todos os inputs do formulário*/
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+/*#data {aqui fiz uma pequena alteração para que o input de date fosse usado ao invés de text.
+    Eu estiquei o campo para 140px
+    width: 140px;
+}*/
+
+input.campo { /*aqui configuramos todas as bordas de todos os inputs do formulário*/
+    border: 1px solid #ada484;
+}
+input.botao { /*aqui mudamos a cor do plano de fundo do botão do formulário. aproveitei e melhorei também o tamanho do botão */
+    background: #9b9271;
+    color: white;
+    width: 100%; /*colocando em 100%, ele ocupa todo o espaço do formualario em largura. perfeito*/
+    height: 40px;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+fieldset { /*agora configuramos a área do formulário em geral */
+    border: none;
+}
+legend {
+    display: none;/*aqui eu configuro para que o texto "selecione uma data" não apareça*/
+}
+
+/*última sessão onde engloba o vídeo, o mapa, a lista de exposições e um breve texto com história */
+#postagens {
+    padding-bottom: 25px;
+    margin: 25px 0;
+}
+
+
+#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+/*CONFIGURANDO O RODAPÉ -----------*/
+footer {
+
+    clear: both;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background: url(../imagens/fundo-rodape.png)no-repeat center top;
+}
+footer>p a {
+    padding: 2px 10px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/html5shiv.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header><!--Início Header-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+            <nav> <!--Início barra de navegação-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisas</a></li>
+                    <li><a href="#">Acervos</a></li>
+                    <li><a href="#">Vìdeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>    
+            </nav><!--Fim da barra de navegação-->
+        </header><!--FIM Header-->
+        <div id="principal"><!--Início da div onde 
+            criaremos todos os conteúdos do site-->
+            <div id="conteudo"><!--Div para colocar o conteúdo do centro do site-->
+                <section id="capa"><!--Criamos aqui a primeira seção dentro da div de conteúdo principal-->
+                    <img src="imagens/museu.png" alt="">
+                </section>
+                <section id="postagens">
+                    <article id="video"><!--Essa parte do código a gente faz aparecer um link do youtube. tem que clicar em "incorporar" na própria página do vídeo no youtube.-->
+                        <h3>Conheça o museu.</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa"><!--aqui a gente faz um link para mapas no google maps-->
+                        <h3>Mapa para encontrar o museu.</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58802.90218019469!2d-43.23304037625218!3d-22.906679612936905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1583113223773!5m2!1spt-BR!2sbr" 
+                        width="310" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </article>
+                    <article id="exposicoes"><!--Lista de exposições do museu. A gente faz uma lista e vai empilhando tudo em cima do outro, depois a gente monta no css-->
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                        </ul><ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                        </ul>
+                        <ul>
+                            <li><strong><a href="">Veja todos (65)</a></strong></li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de historia</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint officiis assumenda soluta eos voluptatem obcaecati nemo explicabo nesciunt quos voluptates, exercitationem distinctio porro consectetur facere minus incidunt enim culpa dolorem.</p>
+                        <a href=""><strong>Leia mais...</strong></a>
+                    </article>
+                    
+
+
+                </section>
+
+            </div><!--fim do conteúdo principal-->
+            <aside ><!--Barra para colocar os conteúdos laterais-->
+                <section id="depoimentos"><!--Esta seção foi criada para a img com os depoimentos-->
+                    <img src="imagens/depoimento.png" alt="">
+                </section>
+                <section id="visita"><!--seção para agendamento de visitas no museu-->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <Fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data:</label>
+                            <input class="campo"  style="width: 125px;" type="date" id="data">
+                            <label for="qtd">Quantidade:</label>
+                            <input class="campo" style="width: 30px;" type="number" id="qt" min="1">
+                        </Fieldset>
+                        <input type="submit" class="campo botao" value="Verifique a disponibilidade">
+
+
+                    </form>
+
+                </section><!--fim da seção de visita-->
+                <section id="galeria"><!--Seção da galeria===início-->
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" alt="texto descrição" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" alt="texto descrição" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" alt="texto descrição" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" alt="texto descrição" height="93" width="93">
+                    </a>
+                    
+                </section>
+
+
+            </aside>
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisas</a>
+                    <a href="">Acervos</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>    
+                <p>
+                    2020 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+                </p>
+            </footer>
+
+        </div><!--FIM DA DIV PRINCIPAL - ONDE TEMOS o cnteudo total-->
+            
+        
+
+
+
+    </div><!--fim do container onde está todo o site. barra lateral e tudo mais.-->
+    
+</body>
+</html>
