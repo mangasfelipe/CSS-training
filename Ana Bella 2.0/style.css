@@ -1,0 +1,165 @@
+body {
+    background: url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+#conteudo {
+    width: 1080px;
+    margin: 0 auto;
+}
+header {
+    padding: 20px;
+}
+#logo {
+    display: block;
+    float: left;
+    background: url(imagens/logo.png)no-repeat;
+    margin-bottom: 20px;
+    text-indent: -9000px;
+    width: 210px;
+    height: 40px;
+}
+#logo a {    
+    width: 210px;
+    height: 40px;
+    float: left;
+}
+h1 {
+    display: block;
+    text-align: center;
+    color: #4b566a;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    float: right;
+    list-style: none;
+}
+ul li {
+    display: block;
+    float: left;
+}
+ul li a {
+    margin: 5px;
+    padding: 10px 10px;
+    text-decoration:none;
+    color: #4b566a;   
+}
+ul li a:hover {
+    background-color:#ecece4;
+    color:#828271;
+}
+
+/*Parte agora dos textos do corpo */
+#texto1 {
+    width: 500px;
+    height: 500px;
+    background-color: #ecece4;
+    float: left;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#caixas section h3 {
+    color: #4b566a;
+    background-color: rgb(206, 228, 128);
+    padding: 5px;
+}
+#texto2 {
+    width: 500px;
+    height: 500px;
+    background-color: #ecece4;
+    float: right;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+/*RODAPÉ DA PÁGINA */
+#rodape {
+    clear: both;
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    color: #4b566a; 
+    background-color: rgb(7, 46, 7) ;
+    padding-top: 30px;
+    border-radius: 15px;
+    
+}
+/*página de contato: formulário */
+
+#formulario {
+    display: block;
+    text-align: left;
+    width: 300px;
+    padding: 10px;
+    float: left;
+    margin-bottom: 30px;
+    border: none;
+    background-color: lavender;
+}
+legend {
+    display: none;
+}
+#formulario input , #formulario textarea{
+    margin: 5px 0;
+    width: 270px;
+    padding: 10px;
+    background-color: khaki;
+}
+#formulario input#enviar {
+    width: 100%;
+    padding: 10px;
+    background-color: khaki;
+}
+#foto-contato {
+    float: right;
+}
+#foto-contato img {
+    border: 5px solid lavender;
+    border-radius: 30px;
+}
+
+/*Página dos trabalhos - configuração das fotos dos modelos e suas caixas */
+.modelos-h, .modelos-v {
+    height: 500px;
+    width: 1000px;
+    background-color: lavender;
+    margin: 18px 0;
+    padding: 20px 40px 0 10px;
+    border-radius: 15px;
+}
+.texto-caixa {
+    border: 10px solid honeydew;
+    display: block;
+    float: right;
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.modelos-h img {
+    display: block;
+    float: left;   
+    margin-left: 50px; 
+    border-radius: 15px;
+}
+
+.texto-caixa-v {
+    border: 10px solid honeydew;
+    display: block;
+    float: left;
+    width: 350px;
+    margin-right: 80px;
+    border-radius: 15px;
+}
+
+.modelos-v img {
+    display: block;
+    float: right;   
+    margin-left: 30px; 
+    border-radius: 15px;
+}
