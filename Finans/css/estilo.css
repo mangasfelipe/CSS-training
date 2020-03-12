@@ -1,0 +1,24 @@
+#home { 
+    background: #ffc107;
+
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5 ;
+}
+footer p a{
+    margin: 5px 15px;
+    padding: 5px 10px;
+}
+footer p a:hover {
+    margin: 5px 15px;
+    background-color: #ffc107;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+footer p i:hover {
+    margin: 5px 15px;
+    background-color: #ffc107;
+}
